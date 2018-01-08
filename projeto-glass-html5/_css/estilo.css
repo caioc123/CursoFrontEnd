@@ -42,7 +42,12 @@ body{
 		opacity: 1;                       	
 	}
 	
-nav#teste ol {
+	nav#menu ol {
 		list-style: none;
 		text-transform:  uppercase;
+	}
+	
+	nav#menu li{
+		display: inline-block;
+		
 	}
