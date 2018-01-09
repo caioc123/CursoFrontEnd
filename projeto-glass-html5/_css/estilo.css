@@ -42,12 +42,40 @@ body{
 		opacity: 1;                       	
 	}
 	
-	nav#menu ol {
-		list-style: none;
-		text-transform:  uppercase;
-	}
-	
-	nav#menu li{
-		display: inline-block;
+	#menu{
+		display: block;
 		
 	}
+	
+	#menu ol {
+		list-style: none;
+		text-transform:  uppercase;
+		position: absolute;
+		top: -20px;
+		left: 700px;
+	}
+	
+	#menu li{
+		display:inline-block;
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+	}
+	
+	#menu li:hover{
+		background-color: #696969; 	
+	}
+	
+	#menu h1{
+		display: none;
+	}
+	
+	#menu ol li {
+	color: #000000;
+	}
+	
+	#menu ol li:hover{
+	 color: #ffffff;
+	 text-decoration: underline;
+	}	
